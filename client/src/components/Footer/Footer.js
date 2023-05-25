@@ -8,12 +8,12 @@ const Footer = () => {
       Made with <HeartTwoTone twoToneColor="#eb2f96" /> By{" "}
       <a
         className="footer__link"
-        href="https://github.com/mihir0699/Video-Chat"
+        href=""
         target="_blank"
         style={{ color: "#fdfdfd" }}
         rel="noreferrer"
       >
-        Mihir Gupta
+        Usama Hassan & Usman Khan
       </a>
     </footer>
   );

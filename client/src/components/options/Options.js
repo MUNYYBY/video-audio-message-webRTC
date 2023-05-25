@@ -97,31 +97,6 @@ const Options = () => {
               Copy code
             </Button>
           </CopyToClipboard>
-
-          <div className={classes.share_social}>
-            <WhatsappShareButton
-              url={`https://video-chat-mihir.vercel.app/`}
-              title={`Join this meeting with the given code "${me}"\n`}
-              separator="Link: "
-              className={classes.share_icon}
-            >
-              <WhatsappIcon size={26} round />
-            </WhatsappShareButton>
-            <FacebookShareButton
-              url={`https://video-chat-mihir.vercel.app/`}
-              title={`Join this meeting with the given code "${me}"\n`}
-              className={classes.share_icon}
-            >
-              <FacebookIcon size={26} round />
-            </FacebookShareButton>
-            <TwitterShareButton
-              url={`https://video-chat-mihir.vercel.app/`}
-              title={`Join this meeting with the given code  "${me}"\n`}
-              className={classes.share_icon}
-            >
-              <TwitterIcon size={26} round className={classes.share_border} />
-            </TwitterShareButton>
-          </div>
         </div>
       </div>
       <div style={{ marginBottom: "0.5rem" }}>
